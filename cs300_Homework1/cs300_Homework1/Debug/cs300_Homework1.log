@@ -1,0 +1,36 @@
+﻿Build started 1.02.2020 13:56:49.
+     1>Project "C:\Users\Efe Şencan\Downloads\CS300\cs300_HW\cs300_Homework1\cs300_Homework1\cs300_Homework1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D "WIN32" /D _DEBUG /D _CONSOLE /D "_UNICODE" /D "UNICODE" /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 25083_EfeSencan.cpp linkedlist.cpp
+         linkedlist.cpp
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2327: 'bottom<type1>::number' : is not a type name, static, or enumerator
+                 c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(22) : see reference to class template instantiation 'bottom<type1>' being compiled
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2065: 'num' : undeclared identifier
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C3861: 'number': identifier not found
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2461: 'bottom<type1>' : constructor syntax missing formal parameters
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2061: syntax error : identifier 'link'
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C2365: 'bottom<type1>::next' : redefinition; previous definition was 'data member'
+                 c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(14) : see declaration of 'bottom<type1>::next'
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(22): fatal error C1004: unexpected end-of-file found
+         25083_EfeSencan.cpp
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2327: 'bottom<type1>::number' : is not a type name, static, or enumerator
+                 c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(22) : see reference to class template instantiation 'bottom<type1>' being compiled
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2065: 'num' : undeclared identifier
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C3861: 'number': identifier not found
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2461: 'bottom<type1>' : constructor syntax missing formal parameters
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(20): error C2061: syntax error : identifier 'link'
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C2365: 'bottom<type1>::next' : redefinition; previous definition was 'data member'
+                 c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(14) : see declaration of 'bottom<type1>::next'
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(21): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+     1>c:\users\efe şencan\downloads\cs300\cs300_hw\cs300_homework1\cs300_homework1\linkedlist.h(22): fatal error C1004: unexpected end-of-file found
+         Generating Code...
+     1>Done Building Project "C:\Users\Efe Şencan\Downloads\CS300\cs300_HW\cs300_Homework1\cs300_Homework1\cs300_Homework1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.60
